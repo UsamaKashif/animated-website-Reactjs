@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down('xs')]: {
             flexDirection: "column",
             justifyContent: "center",
-            marginTop: "50px",
+            marginTop: "60px",
           },
         
     },
@@ -47,8 +47,9 @@ const useStyles = makeStyles((theme) => ({
             margin: "0 auto"
           },
         [theme.breakpoints.down('xs')]: {
-            width: "420px",
-            margin: "0 auto"
+            width: "320px",
+            margin: "0 auto",
+            marginTop: "17px"
           },
         
     },
@@ -70,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
             textAlign: "center",
           },      
         [theme.breakpoints.down('xs')]: {
-            width: "400px",
+            width: "300px",
             margin: '0 auto',
             textAlign: "center",
           },      
@@ -94,8 +95,8 @@ const useStyles = makeStyles((theme) => ({
             fontSize: "47px",
         },   
         [theme.breakpoints.down('sm')]: {
-            fontSize: "44px",
-            lineHeight: "65px",
+            fontSize: "28px",
+            lineHeight: "55px",
         },   
     },
     brief: {
@@ -115,8 +116,8 @@ const useStyles = makeStyles((theme) => ({
             fontSize: "22px",
         }, 
         [theme.breakpoints.down('md')]: {
-            fontSize: "25px",
-            marginTop: "4px",
+            fontSize: "22px",
+            marginTop: "7px",
         }, 
     },
     btn: {
@@ -140,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down('md')]: {
             width: "calc(315px / 1.9)",
             height: "calc(118px / 1.9)",
-            marginTop: "30px",
+            marginTop: "38px",
         }, 
     },
     btnText: {
