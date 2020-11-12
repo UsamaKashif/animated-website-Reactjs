@@ -21,7 +21,11 @@ const useStyles = makeStyles((theme) => ({
     letterSpacing: "0.04em",
     color: "#000000",
     marginLeft: "110px",
-    textTransform: "uppercase"
+    textTransform: "uppercase",
+    [theme.breakpoints.down('xs')]: {
+        fontSize: "25px",
+        margin: "0",
+      },    
   },
 }));
 
